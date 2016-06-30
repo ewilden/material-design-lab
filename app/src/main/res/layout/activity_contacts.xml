@@ -1,12 +1,11 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/rlMainContent"
+    android:id="@+id/clMainContent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CardsActivity">
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rvContacts"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-</RelativeLayout>
+    tools:context=".activities.ContactsActivity">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvContacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+</android.support.design.widget.CoordinatorLayout>
